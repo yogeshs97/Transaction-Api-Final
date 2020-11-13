@@ -1,0 +1,33 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: transactionsmicroservice-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: Transactionsmicroservice
+  template:
+    metadata:
+      labels:
+        app: Transactionsmicroservice
+    spec:
+      containers:
+      - name: transactionsmicroservicerepos
+        image: anujretailbankingcr.azurecr.io/transactionsmicroservicerepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: dsconfigsn2
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: transactionsmicroservice
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: Transactionsmicroservice

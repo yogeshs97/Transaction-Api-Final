@@ -5765,19 +5765,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anuj-PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Yogesh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anuj-PC\\Downloads\\Retail-Banking-System-master (1)\\Retail-Banking-System-master\\Transaction API\\TransactionTests\\TransactionTests.csproj",
+      "projectUniqueName": "G:\\MFPE-Final\\Transaction-Api-master\\TransactionTests\\TransactionTests.csproj",
       "projectName": "TransactionTests",
-      "projectPath": "C:\\Users\\Anuj-PC\\Downloads\\Retail-Banking-System-master (1)\\Retail-Banking-System-master\\Transaction API\\TransactionTests\\TransactionTests.csproj",
-      "packagesPath": "C:\\Users\\Anuj-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anuj-PC\\Downloads\\Retail-Banking-System-master (1)\\Retail-Banking-System-master\\Transaction API\\TransactionTests\\obj\\",
+      "projectPath": "G:\\MFPE-Final\\Transaction-Api-master\\TransactionTests\\TransactionTests.csproj",
+      "packagesPath": "C:\\Users\\Yogesh\\.nuget\\packages\\",
+      "outputPath": "G:\\MFPE-Final\\Transaction-Api-master\\TransactionTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anuj-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yogesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5790,8 +5790,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Anuj-PC\\Downloads\\Retail-Banking-System-master (1)\\Retail-Banking-System-master\\Transaction API\\Transactions Microservice\\Transactions Microservice.csproj": {
-              "projectPath": "C:\\Users\\Anuj-PC\\Downloads\\Retail-Banking-System-master (1)\\Retail-Banking-System-master\\Transaction API\\Transactions Microservice\\Transactions Microservice.csproj"
+            "G:\\MFPE-Final\\Transaction-Api-master\\Transactions Microservice\\Transactions Microservice.csproj": {
+              "projectPath": "G:\\MFPE-Final\\Transaction-Api-master\\Transactions Microservice\\Transactions Microservice.csproj"
             }
           }
         }
@@ -5844,7 +5844,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
